@@ -1,0 +1,14 @@
+Mongo DB is the M in MERN stack
+
+Traditonal SQL DB are built in  a relational structure. related tables reference each other using joins as data is queried. these relational talbes also normalise the data i.e data is not duplicated on the tables.
+ 
+ DRY (Dont Repeat Yourself) 
+
+ NoSQL Like MongoDB do not favour D.R.Y. MongoDB stores data in DOCUMENTS. each record in the document are called COLLECTIONS. collections store data in key-value pair structure that look a lot like JSON.
+
+ Advantages of MongoDB
+1) performance: the speed at which a collection is queried is very fast
+2) Flexibilty: it is very easy to make structural changes like having a new field without wrecking total havoc in your database. Just like adding a new property to an object
+3) Scalabilty: it supports large DB with high request rates at a very low latency
+4) Usability: it is very fast to get up an running in the cloud
+
